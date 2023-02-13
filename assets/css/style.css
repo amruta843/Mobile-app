@@ -1,0 +1,321 @@
+*
+{
+padding:0;
+margin:0;
+box-sizing:border-box;
+
+font-family: 'Roboto', sans-serif;
+
+}
+/* ................................hero-section start...................................... */
+
+.m-logo
+{
+	margin-bottom:145px;
+}
+.hero-section navbar
+{
+	margin-bottom:105px;
+}
+.hero-section
+{	
+	background-position:center;
+	background-size:cover;
+	background-attachment:fixed;
+	background-image:linear-gradient(rgb(209,78,61,0.5),rgb(208,76,60,0.5)),url('../images/mobile-bg.jpg');
+	background-repeat:no-repeat;
+	overflow:hidden;
+	padding:45px 0 65px;
+	
+}
+.navbar li
+{
+	display:inline-block;
+	margin-left:10px;
+}
+.navbar ul li a
+{
+	color:#fff;
+	font-size:16px;
+	font-weight:400;
+	text-transform:uppercase;	
+	padding:10px;
+	position:relative;
+}
+.navbar ul li a::after{
+	content:'';
+	position:absolute;
+	left:0;
+	bottom:0;
+	width:0%;
+	height:3px;
+	background-color:#fff;
+	transition:all 0.3s ease-in-out;
+}
+.navbar ul li a:hover::after
+{
+	width:100%;
+	
+	
+}
+
+.cta-info h2
+{
+	color:#fff;
+	font-size:52px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin-bottom:60px;
+}
+.cta-info p
+{
+	color:#fff;
+	font-size:36px;
+	font-weight:400px;
+	margin-bottom:50px;
+	
+font-family: 'Playfair Display', serif;
+
+}
+.cta-info a
+{
+	background-color:#282828;
+	border-radius:40px;
+	padding:15px 50px 15px 35px;
+	text-transform:uppercase;
+	color:#fff;
+	font-size:17px;
+	font-weight:bold;
+}
+.cta-info a i{
+	font-size:45px;
+	margin-right:25px;
+	vertical-align:middle;
+}
+.cta-img
+{
+	position:relative;
+}
+.cta-img img
+{
+	position:absolute;
+	right:30px;
+	top:-40px;
+	width:75%;
+}
+
+
+/* ...............................app-feature section start........................................ */
+.app-feature
+{
+	padding:85px 0 110px;	
+}
+.features-heading h2
+{
+	font-size:52px;
+	font-weight:bold;
+	color:#8a8a8a;
+	text-transform:uppercase;
+	margin-bottom:45px;
+}
+.features-heading p
+{
+	font-size:22px;
+	font-weight:400;
+	color:#3a3a3a;
+	margin-bottom:65px;
+	
+font-family: 'Poppins', sans-serif;
+
+}
+.features-info .team-img
+{
+	width:180px;
+	height:180px;
+	margin:0 auto 35px;
+}
+.features-info .team-img img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+}
+.features-info h3
+{
+	font-size:24px;
+	font-weight:bold;
+	color:#1a1a1a;
+	text-transform:uppercase;
+	
+}
+.features-info p
+{
+	font-size:18px;
+	font-weight:400;
+	color:#646464;
+}
+
+/* .............................................fruit-cake-section start.................................................. */
+
+.fruit-ck-section
+{
+	padding:200px 0 170px;
+	background-image:url('../images/chockolate.jpg');
+	background-size:100% 100%;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+}
+.fruit-info h2
+{
+	font-size:52px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	margin-bottom:55px;
+}
+.fruit-info p{
+	font-size:24px;
+	font-weight:400;
+	color:#585858;
+	margin-bottom:70px;
+}
+.fruit-info a
+{
+	color:#d9332d;
+	background-color:#fff;
+	border:2px solid #d9332d;
+	text-transform:uppercase;
+	font-size:15;
+	font-weight:bold;
+	border-radius:40px;
+	padding:20px 25px;
+	transition:all 0.3s ease-in-out;
+}
+.fruit-info a:hover
+{
+	background-color:#d9332d;
+	color:#fff;
+	
+}
+/* ......................................................ftr-section start.................................................... */
+.ftr-section
+{
+	padding:120px 0 150px;
+	background-color:#2e2e38;
+}
+.ftr-section .ftr-logo
+{
+	margin-bottom:55px;
+}
+.frt-list h4
+{	
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:capitalize;
+	margin-bottom: 30px;
+}
+.frt-list ul li
+{
+	display:table;
+	clear:both;
+	width:100%;
+	margin-bottom:30px;
+
+}
+.frt-list ul li div
+{
+	float:left;
+	}
+
+.frt-list li .ftr-box{
+	width:55px;
+	height:45px;
+	background-color:#d9332d;
+	
+}
+.frt-list .ftr-info p
+{
+	margin-left:15px;
+	font-size:15px;
+	color:#fff;
+	font-weight:regular;
+	text-transform:capitalize;
+	margin-top:5px;
+}
+.tweet-list ul li{
+	color:#fff;
+	font-size:15px;
+	font-weight:400;
+	padding-top:5px;
+	
+}
+.tweet-list li p{
+	font-size:11px;
+}
+.tweet-list .flws{
+	font-size:14px;
+	
+}
+.tweet-list .w-70{
+	width:70%;
+}
+.about-info {
+	font-size:15px;
+	font-weight:400;
+	font-style:italic;
+	color:#d7dedc;
+	width:75%;
+}
+footer
+{
+	background-color:#d7dedc;
+	padding:45px 0; 
+	
+}
+.footer-info-section p, .footer-info-section .social-icon
+{
+	display:inline-block;
+	
+font-family:'times new roman'
+
+}
+.footer-info-section p
+{
+	font-size:25px;
+	font-weight:400;
+	color:#000;
+}
+.footer-info-section a 
+{
+	color:#000;
+}
+.ft-span
+{
+	padding-left:25px;
+	margin-right:25px;
+}
+.footer-info-section .social-icon a
+{
+	height:30px;
+	width:30px;
+	background-color:#395797;
+	color:#fff;
+	padding:10px 0 5px;
+	margin-right:40px;
+	border-radius:5px;
+}
+.footer-info-section .social-icon a:nth-child(1)
+{
+	margin-left:15px;
+}
+.footer-info-section .social-icon a:nth-child(2)
+{
+	background-color:#dc3b7b;
+	padding-top:8px;
+}
+.footer-info-section .social-icon a:nth-child(3)
+{
+	padding-top:8px;
+	background-color:#9ee6e8;
+}
